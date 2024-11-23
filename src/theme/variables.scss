@@ -1,0 +1,37 @@
+// For information on how to create your own theme, please see:
+// http://ionicframework.com/docs/theming/
+// src/theme/variables.scss
+:root {
+  --ion-color-primary: #3880ff;
+  --ion-color-secondary: #fff838;
+  --ion-color-tertiary: #e1a16f;
+  --ion-color-primary-rgb: 56, 128, 255;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: #3171e0;
+  --ion-color-primary-tint: #4c8dff;
+  --ion-background-color: #f9f8f8;
+
+  // Add more variables as needed...
+
+  --ion-text-color: #222428;
+  --ion-color-button: #bce225;
+  --ion-background-toolbar: hsl(72, 83%, 63%);
+}
+
+body.dark {
+  --ion-background-color: #000000;
+  --ion-text-color: #ffffff;
+  --ion-color-primary: #222428;
+  --ion-color-secondary: #222428;
+  --ion-color-tertiary: #7eea1a;
+  --ion-color-primary-rgb: 34, 36, 40;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: #1e2023;
+  --ion-color-primary-tint: #383a3e;
+  // Add more dark mode variables as needed...
+
+   --ion-color-button: #f35252;
+   --ion-background-toolbar: hsl(32, 83%, 63%);
+}

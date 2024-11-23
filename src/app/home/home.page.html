@@ -1,0 +1,61 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title class="center"> Hospital Home </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="background">
+  <br />
+
+  <ion-row>
+    <ion-col class="center">
+      <ion-button class="custom-button" (click)="performBiometricVerification()"
+        >Verify Identity</ion-button
+      >
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
+    <ion-col class="center">
+      <ion-button (click)="logout()">Logout</ion-button>
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
+    <ion-col class="center">
+      <ion-button (click)="toggleDarkMode()">
+        <ion-icon
+          slot="icon-only"
+          [name]="isDarkMode ? 'sunny' : 'moon'"
+        ></ion-icon>
+      </ion-button>
+    </ion-col>
+  </ion-row>
+
+  <ion-card color="primary">
+    <ion-card-header>
+      <ion-card-title>Card Title</ion-card-title>
+      <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content> Card Content </ion-card-content>
+  </ion-card>
+
+  <ion-card color="secondary">
+    <ion-card-header>
+      <ion-card-title>Card Title</ion-card-title>
+      <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content> Card Content </ion-card-content>
+  </ion-card>
+
+  <ion-card color="tertiary">
+    <ion-card-header>
+      <ion-card-title>Card Title</ion-card-title>
+      <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content> Card Content </ion-card-content>
+  </ion-card>
+</ion-content>
